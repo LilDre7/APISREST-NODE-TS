@@ -18,7 +18,7 @@ router.route("/diary/:id").get((_req, res) => {
 });
 
 router.route("/diary/:id/comment").get((__req, res) => {
-  res.send("Save my proyect");
+  res.send("Save new proyect prueba");
 });
 
 export default router; // ESModules
