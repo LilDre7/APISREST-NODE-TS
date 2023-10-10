@@ -1,80 +1,50 @@
 [
   {
+    "id": 1,
     "name": "Historic Footpath",
     "username": "Pansy.Flatley40",
     "rating": 3.9,
     "favorites": 28,
-    "visits": 224,
-    "difficulty": 3,
-    "terrain": 3,
-    "size": "medium",
-    "created": "January 3, 2023",
-    "updated": "February 14, 2023",
-    "coords": "89.2039 -143.9104"
+    "visits": 224
   },
   {
+    "id": 1,
     "name": "Old Stream",
     "username": "Leon.Graham",
     "rating": 0.4,
     "favorites": 6,
-    "visits": 30,
-    "difficulty": 3,
-    "terrain": 1,
-    "size": "large",
-    "created": "September 21, 2021",
-    "updated": "September 27, 2021",
-    "coords": "19.5712 174.3080"
+    "visits": 30
   },
   {
+    "id": 1,
     "name": "Indigo Old Beaten path",
     "username": "Precious_Bogan5",
     "rating": 1.7,
     "favorites": 6,
-    "visits": 84,
-    "difficulty": 3,
-    "terrain": 4,
-    "size": "big",
-    "created": "July 7, 2021",
-    "updated": "September 2, 2022",
-    "coords": "87.9830 -63.2760"
+    "visits": 84
   },
   {
+    "id": 1,
     "name": "Orange Sunny Footpath",
     "username": "Tiana46",
     "rating": 4.4,
     "favorites": 9,
-    "visits": 126,
-    "difficulty": 5,
-    "terrain": 2,
-    "size": "medium",
-    "created": "March 20, 2023",
-    "updated": "April 3, 2023",
-    "coords": "-20.7503 -173.0898"
+    "visits": 126
   },
   {
+    "id": 1,
     "name": "Green Route",
     "username": "Allene17",
     "rating": 3.1,
     "favorites": 7,
-    "visits": 70,
-    "difficulty": 3,
-    "terrain": 5,
-    "size": "large",
-    "created": "June 18, 2023",
-    "updated": "August 26, 2023",
-    "coords": "-6.5334 -29.3334"
+    "visits": 70
   },
   {
+    "id": 1,
     "name": "Shady Footpath",
     "username": "Madilyn.Hintz65",
     "rating": 0.8,
     "favorites": 5,
-    "visits": 20,
-    "difficulty": 3,
-    "terrain": 1,
-    "size": "big",
-    "created": "January 2, 2022",
-    "updated": "January 9, 2022",
-    "coords": "-16.6720 135.0739"
+    "visits": 20
   }
 ]

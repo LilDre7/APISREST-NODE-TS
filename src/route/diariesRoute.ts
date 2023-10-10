@@ -1,12 +1,19 @@
 import express from "express"; // ESModules
+import * as diaryServices from "../services/diaryService";
 
 const router = express.Router();
 
 router.route("/").get((_req, res) => {
-  res.send("Fetching all ENTRY entdiaries");
+  res.send(diaryServices.getEntriesWithoutSensitiveInfo());
 });
 
-router.route("/:id").get((_req, res) => {
+router.route("/:id").get((req, res) => {
+  const diary = diaryServices.findById(+req.params.id);
+  res.send(diary?.id + "  🦕  Este es el id del usuario");
+  res.send(diaryServices.getEntriesWithoutSensitiveInfo);
+});
+
+router.route("/diary/:id").get((_req, res) => {
   res.send("Saving all entdiaries");
 });
 
