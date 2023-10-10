@@ -3,6 +3,8 @@ import diaryData from "./diaries.json";
 
 const diaries: DiaryEntry[] = diaryData as DiaryEntry[];
 
+console.log(diaries);
+
 export const getEntries = (): DiaryEntry[] => diaries;
 
 export const findById = (
