@@ -46,5 +46,13 @@
     "rating": 0.8,
     "favorites": 5,
     "visits": 20
+  },
+  {
+    "id": 2,
+    "name": "Shady Footpath",
+    "username": "Madilyn.Hintz65",
+    "rating": 0.8,
+    "favorites": 5,
+    "visits": 20
   }
 ]
