@@ -17,6 +17,10 @@ router.route("/diary/:id").get((_req, res) => {
   res.send("Saving all entdiaries");
 });
 
+router.route("/diary/:id/comment").get((__req, res) => {
+  res.send("Save my proyect");
+});
+
 export default router; // ESModules
 
 // ECMAScript (ES6) => import {  } from - export const otraFuntion
