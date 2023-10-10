@@ -21,6 +21,10 @@ router.route("/diary/:id/comment").get((__req, res) => {
   res.send("Save new proyect prueba");
 });
 
+router.route("/diary/:id/message").get((__req, res) => {
+  res.send("Update proyect prueba");
+});
+
 export default router; // ESModules
 
 // ECMAScript (ES6) => import {  } from - export const otraFuntion
